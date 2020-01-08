@@ -8,6 +8,7 @@ WORK_DIR=$2
 
 # changing work directory
 cd ${WORK_DIR}
+echo ${PWD}
 
 # compiling latex
 latexmk -pdf -file-line-error -interaction=nonstopmode ${ROOT_FILE}%
