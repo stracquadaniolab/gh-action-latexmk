@@ -1,0 +1,19 @@
+name: 'gh-action-latexmk'
+description: 'A latexmk action to compile latex files on GitHub.'
+inputs:
+  root_file:
+    description: 'The root latex file to compile'
+    required: true
+    default: 'manuscript.tex'
+  work_dir:
+    description: 'The latex work directory'
+    required: true
+    default: '.'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    -  ${{ inputs.root_file }}
+    -  ${{ inputs.work_dir }}
+    
