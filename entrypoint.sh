@@ -11,4 +11,4 @@ cd ${WORK_DIR}
 echo ${PWD}
 
 # compiling latex
-latexmk -pdf -file-line-error -interaction=nonstopmode ${ROOT_FILE}%
+latexmk -pdf -file-line-error -interaction=nonstopmode ${ROOT_FILE}
