@@ -1,4 +1,4 @@
-FROM stracquadaniolab/latexfull:latest
+FROM stracquadaniolab/latex:latest
 
 LABEL org.stracquadaniolab.maintainer="gh-action-latexmk"
 LABEL org.stracquadaniolab.version="0.0.1"
