@@ -1,7 +1,7 @@
 FROM stracquadaniolab/latex:latest
 
 LABEL org.stracquadaniolab.maintainer="gh-action-latexmk"
-LABEL org.stracquadaniolab.version="0.0.1"
+LABEL org.stracquadaniolab.version="1"
 LABEL org.stracquadaniolab.platform="github-action"
 
 ADD ./entrypoint.sh /usr/bin/entrypoint.sh
