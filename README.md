@@ -1,4 +1,5 @@
 # latexmk
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/tag/stracquadaniolab/gh-action-latexmk)
 
 A latexmk action to compile latex files on GitHub.
 
