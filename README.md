@@ -1,5 +1,5 @@
 # latexmk
-![](https://img.shields.io/badge/current_version-v1-blue)
+![](https://img.shields.io/badge/current_version-v1.1-blue)
 
 ## Overview
 An action to compile latex files with latexmk.
