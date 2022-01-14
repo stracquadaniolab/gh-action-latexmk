@@ -1,10 +1,6 @@
-FROM stracquadaniolab/latex:latest
+FROM ghcr.io/stracquadaniolab/latex:v0.4.0
 
-LABEL org.stracquadaniolab.maintainer="gh-action-latexmk"
-LABEL org.stracquadaniolab.version="1"
-LABEL org.stracquadaniolab.platform="github-action"
-
-ADD ./entrypoint.sh /usr/bin/entrypoint.sh
+COPY ./entrypoint.sh /usr/bin/entrypoint.sh
 
 RUN chmod +x /usr/bin/entrypoint.sh
 

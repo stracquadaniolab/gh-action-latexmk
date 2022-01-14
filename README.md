@@ -1,7 +1,8 @@
 # latexmk
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/tag/stracquadaniolab/gh-action-latexmk)
+![](https://img.shields.io/badge/current_version-v1-blue)
 
-A latexmk action to compile latex files on GitHub.
+## Overview
+An action to compile latex files with latexmk.
 
 ## Inputs
 
